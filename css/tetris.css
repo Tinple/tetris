@@ -1,0 +1,105 @@
+html,body,div,ul,li{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+body{
+	background:#B0C4DE;
+	line-height:1;
+}
+ul{
+	list-style: none;
+}
+#tetris{
+	height:529px;
+	width:504px;
+	margin:20px auto;
+
+	position:relative;
+}
+#tetris_bd{
+	height:529px;
+	width:504px;
+}
+#tetris_grid{
+	height:525px;
+	width:325px;
+	background:black;
+	float:left;
+	border:1px solid gray;
+}
+#tetris_sidebar{
+	height:527px;
+	width:177px;
+	float:left;
+	position:relative;
+}
+ul#tetris_preview{
+	height:125px;
+	width:125px;
+	margin:0 25px;
+	border:1px solid gray;
+}
+.block{
+	width:25px;
+	height:25px;
+	float:left;
+	background:url(../images/1.jpg) no-repeat transparent;
+}
+.bt{
+	border-radius:10px 10px 10px 10px;
+	line-height:50px;
+	width:127px;
+	height:50px;
+	position:absolute;
+	left:24px;
+	top:152px;
+	text-align:center;
+	background:none repeat scroll 0 0 #4169E1;
+	color:#FFFFFF;
+	font-size:25px;
+	border:none;
+}
+ul#tetris_data{	
+	width:152px;
+	height:220px;
+	margin-top:25px;
+	position:absolute;
+	top:202px;
+	left:24px
+	
+}
+ul#tetris_data li{
+	margin-bottom:20px;
+	padding:0 0 0 24px;
+	height:30px;
+	line-height:30px;
+}
+
+ul#tips{
+	width:127px;
+	height:100px;
+	position:absolute;
+	left:24px;
+	top:427px;
+}
+ul#tips li{
+	height:25px;
+	line-height:25px;
+	padding:0 24px;
+}
+#gameOver{
+	border-radius:10px 10px 10px 10px;
+	display:block;
+	width:150px;
+	height:75px;
+	position:absolute;
+	top:175px;
+	left:100px;
+	background:none repeat scroll 0 0 #483D8B;
+	color:white;
+	font-size:25px;
+	line-height:75px;
+	text-align:center;
+}

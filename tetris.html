@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tetris</title>
+	<meta http-equiv="Content-type" content="text/html;charset=utf-8"/>
+	<script type="text/javascript" src="./js/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="./js/tetris.js"></script>
+	<link rel="stylesheet" href="./css/tetris.css" media="screen" type="text/css"/>
+	<style type="text/css">
+
+		
+	</style>
+</head>
+<body>
+	<div id="tetris">
+		<div id="tetris_bd">
+			<ul id="tetris_grid" class="border">
+			</ul>
+			<div id="tetris_sidebar">
+				<ul id="tetris_preview" class="border">
+				</ul>
+				<input type="button" class="bt" onfocus="blur()" onclick="toggleTetris()" value="开始" />
+				<ul id="tetris_data">
+					<li>得分：<span id="score"></span></li>
+					<li>等级：<span id="level"></span></li>
+					<li>消行：<span id="line"></span></li>
+					<li id="taketime">耗时：<span id="time"></span></li>
+				</ul>
+			<ul id="tips">
+					<li>W: 变形</li>
+					<li>S：向下</li>
+					<li>A：向左</li>
+					<li>D：向右</li>
+				</ul>
+			</div>
+		</div>
+		<div id="gameOver">Game Over</div>
+	</div>
+</body>
+</html>
